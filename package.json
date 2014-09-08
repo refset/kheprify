@@ -1,0 +1,33 @@
+{
+  "name": "kheprify",
+  "version": "0.0.1",
+  "description": "Browserify transform for Khepri",
+  "main": "index.js",
+  "dependencies": {
+    "through": "~2.3.4",
+    "convert-source-map": "~0.3.3",
+    "khepri": "~1.0.7"
+  },
+  "devDependencies": {
+    "tap": "~0.4.0",
+    "browserify": "~3.24.6"
+  },
+    "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jez0990/kheprify"
+  },
+  "keywords": [
+    "khepri",
+    "browserify",
+    "transform"
+  ],
+  "author": "jez0990",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jez0990/kheprify/issues"
+  },
+  "homepage": "https://github.com/jez0990/kheprify"
+}
