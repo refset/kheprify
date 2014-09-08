@@ -1,0 +1,3 @@
+var xx = \x -> x + 3;
+static console;
+console.log(xx 18);
